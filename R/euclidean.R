@@ -8,6 +8,9 @@
 #' @param b A number.
 #' @return the greatest common divisor of a and b.
 #' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
+#' 
+#' @examples 
+#' euclidean(24, 36)
 
 euclidean <-
 function(a, b){

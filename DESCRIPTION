@@ -4,8 +4,12 @@ Title: Euclidian algorithm and Dijkstra’s shortest path algorithm
 Version: 1.0
 Date: 2022-09-15
 Author: NI, Dongwei
+Authors@R: c(
+    person("Dongwei", "NI", "donni508@student.liu.se"),
+    person("Ndayisabye", "Francois", "ndafr644@student.liu.se")
+)
 Maintainer: <donni508@student.liu.se>
-Description: In this R package we will implement two famous algorithms, the Euclidian algorithm to find the greates common divisor of two integers and Dijkstra’s shortest path algorithm in a graph. 
+Description: In this R package we will implement two famous algorithms, the Euclidian algorithm to find the greates common divisor of two integers and Dijkstra’s shortest path algorithm in a graph.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.2.1

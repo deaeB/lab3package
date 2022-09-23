@@ -9,6 +9,9 @@
 #' @return the shortest path to every other node from the starting node as a vector.
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 #' 
+#' @examples 
+#' dijkstra(wiki_graph, 1)
+#' 
 dijkstra <-
 function(graph, init_node){
   assert_args <- is.data.frame(graph) && all(names(graph) == c("v1", "v2", "w")) && any(init_node == graph[1]) && is.numeric(init_node) && length(init_node) == 1
