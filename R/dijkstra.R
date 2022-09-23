@@ -9,6 +9,7 @@
 #' @return the shortest path to every other node from the starting node as a vector.
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 #' 
+#' @export
 #' @examples 
 #' dijkstra(wiki_graph, 1)
 #' 

@@ -9,6 +9,7 @@
 #' @return the greatest common divisor of a and b.
 #' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 #' 
+#' @export
 #' @examples 
 #' euclidean(24, 36)
 

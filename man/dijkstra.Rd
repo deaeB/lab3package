@@ -20,6 +20,10 @@ find the the shortest path
 \details{
 The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.
 }
+\examples{
+dijkstra(wiki_graph, 1)
+
+}
 \references{
 https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }

@@ -20,6 +20,9 @@ find the greatest common divisor of two numbers
 \details{
 The first algoritm to implement is the Euclidian algorithm. Assert that the arguments are numeric scalars or integers.
 }
+\examples{
+euclidean(24, 36)
+}
 \references{
 https://en.wikipedia.org/wiki/Euclidean_algorithm
 }
